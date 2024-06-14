@@ -38,7 +38,7 @@ const Register = () => {
         <div className="flex justify-center h-screen items-center bg-primary">
         <div className="card p-3 w-400">
           <h1 className="text-xl mb-1">Welcome to BookMyShow! Please Register </h1>
-          <hr />
+          {/* <hr /> */}
           <Form layout="vertical" className="mt-1" onFinish={onFinish}>
             <Form.Item
               label="Name"
